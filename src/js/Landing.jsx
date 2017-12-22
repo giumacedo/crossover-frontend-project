@@ -1,8 +1,9 @@
 import React from 'react';
+import Table from './Table';
 
 const Landing = () => (
   <div className="landing">
-    <h1> Hello World 3</h1>
+    <Table />
   </div>
 );
 
