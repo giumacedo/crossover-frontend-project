@@ -39,13 +39,9 @@ class Table extends Component {
       </div>
     ));
     return (
-      <div className="container">
-        <div className="row">
-          <div className="custom-table">
-            <div className="table-header">{tableHeader}</div>
-            <div className="table-content">{tableRow}</div>
-          </div>
-        </div>
+      <div className="custom-table">
+        <div className="table-header">{tableHeader}</div>
+        <div className="table-content">{tableRow}</div>
       </div>
     );
   }
