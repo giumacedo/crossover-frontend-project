@@ -19,7 +19,7 @@ class Table extends Component {
           {'\u00A0'}
         </div>
         <div>
-          <Moment format="YYYY/MM/DD HH:mm">
+          <Moment format="MM/DD/YYYY HH:mm">
             {element.attributes.timeStarted}
           </Moment>
         </div>
