@@ -1,0 +1,48 @@
+.resp-table {
+  width: 100%;
+  display: table;
+  background-color: $Silver;
+
+  .table-header {
+    display: table-header-group;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .table-header-cell {
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+  }
+  .table-body {
+    display: table-row-group;
+  }
+  .table-row {
+    display: table-row;
+  }
+  .table-body-cell {
+    display: table-cell;
+    padding: 3px 0;
+    &.state {
+      text-transform: capitalize;
+    }
+    .square {
+      width: 40px;
+      height: 25px;
+      border: 1px solid $SilverSand;
+      background: $Alto;
+      &.running {
+        background: linear-gradient(to right, $Danuve 50%, $Alto 50%);
+      }
+      &.complete {
+        background: $FernGreen;
+      }
+      &.completed {
+        background: $FernGreen;
+      }
+      &.rejected {
+        background: $Monza;
+      }
+    }
+  }
+}

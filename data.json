@@ -15,8 +15,12 @@
       "id": "Tenrox-R1_1235",
       "attributes": {
         "owner": "",
-        "time-started": "",
-        "state": "Pending"
+        "timeStarted": "",
+        "state": "pending",
+        "metric": "",
+        "build": "",
+        "unitTest": "",
+        "functionalTest": ""
       }
     },
     {
@@ -24,8 +28,12 @@
       "id": "432462",
       "attributes": {
         "owner": "jstuck",
-        "time-started": "2014-04-18T12:12:00.000Z",
-        "state": "Running"
+        "timeStarted": "2014-04-18T12:12:00.000Z",
+        "state": "running",
+        "metric": "running",
+        "build": "",
+        "unitTest": "",
+        "functionalTest": ""
       }
     },
     {
@@ -33,8 +41,12 @@
       "id": "432461",
       "attributes": {
         "owner": "samy",
-        "time-started": "2014-04-18T10:53:00.000Z",
-        "state": "Rejected"
+        "timeStarted": "2014-04-18T10:53:00.000Z",
+        "state": "rejected",
+        "metric": "rejected",
+        "build": "completed",
+        "unitTest": "completed",
+        "functionalTest": "completed"
       }
     },
     {
@@ -42,8 +54,12 @@
       "id": "Tenrox-R1_1234",
       "attributes": {
         "owner": "",
-        "time-started": "2014-04-17T09:42:00.000Z",
-        "state": "Complete"
+        "timeStarted": "2014-04-17T09:42:00.000Z",
+        "state": "complete",
+        "metric": "completed",
+        "build": "completed",
+        "unitTest": "completed",
+        "functionalTest": "completed"
       }
     },
     {
@@ -51,8 +67,12 @@
       "id": "432460",
       "attributes": {
         "owner": "samy",
-        "time-started": "2014-04-17T07:51:00.000Z",
-        "state": "Rejected"
+        "timeStarted": "2014-04-17T07:51:00.000Z",
+        "state": "rejected",
+        "metric": "rejected",
+        "build": "",
+        "unitTest": "",
+        "functionalTest": ""
       }
     },
     {
@@ -60,8 +80,12 @@
       "id": "432460",
       "attributes": {
         "owner": "samy",
-        "time-started": "2014-04-16T06:43:00.000Z",
-        "state": "Accepted"
+        "timeStarted": "2014-04-16T06:43:00.000Z",
+        "state": "accepted",
+        "metric": "completed",
+        "build": "completed",
+        "unitTest": "completed",
+        "functionalTest": "completed"
       }
     }
   ]
