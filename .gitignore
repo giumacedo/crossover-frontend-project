@@ -1,0 +1,16 @@
+public/*.css
+public/*.js
+node_modules/
+.eslintcache
+coverage/
+.nyc_output
+.DS_Store
+public/*bundle*
+public/*style*
+*.map
+*.bundle.js
+*.style.css
+_site/
+.sass-cache/
+*.iml
+.idea/

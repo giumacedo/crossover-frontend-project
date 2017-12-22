@@ -1,0 +1,25 @@
+{
+  "name": "crossover-frontend-project",
+  "version": "1.0.0",
+  "description": "Giulliano Macedo test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giumacedo/crossover-frontend-project.git"
+  },
+  "keywords": [
+    "React",
+    "Frontend",
+    "accordion",
+    "table"
+  ],
+  "author": "Giulliano Macedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giumacedo/crossover-frontend-project/issues"
+  },
+  "homepage": "https://github.com/giumacedo/crossover-frontend-project#readme"
+}
