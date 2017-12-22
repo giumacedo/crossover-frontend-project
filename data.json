@@ -28,7 +28,7 @@
       "id": "432462",
       "attributes": {
         "owner": "jstuck",
-        "timeStarted": "2014-04-18T12:12:00.000Z",
+        "timeStarted": "2014-04-18T12:12:00",
         "state": "running",
         "metric": "running",
         "build": "",
@@ -41,7 +41,7 @@
       "id": "432461",
       "attributes": {
         "owner": "samy",
-        "timeStarted": "2014-04-18T10:53:00.000Z",
+        "timeStarted": "2014-04-18T10:53:00",
         "state": "rejected",
         "metric": "rejected",
         "build": "completed",
@@ -54,7 +54,7 @@
       "id": "Tenrox-R1_1234",
       "attributes": {
         "owner": "",
-        "timeStarted": "2014-04-17T09:42:00.000Z",
+        "timeStarted": "2014-04-17T09:42:00",
         "state": "complete",
         "metric": "completed",
         "build": "completed",
@@ -67,7 +67,7 @@
       "id": "432460",
       "attributes": {
         "owner": "samy",
-        "timeStarted": "2014-04-17T07:51:00.000Z",
+        "timeStarted": "2014-04-17T07:51:00",
         "state": "rejected",
         "metric": "rejected",
         "build": "",
@@ -80,7 +80,7 @@
       "id": "432460",
       "attributes": {
         "owner": "samy",
-        "timeStarted": "2014-04-16T06:43:00.000Z",
+        "timeStarted": "2014-04-16T06:43:00",
         "state": "accepted",
         "metric": "completed",
         "build": "completed",

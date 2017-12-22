@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/giumacedo/crossover-frontend-project.git"
   },
-  "keywords": ["React", "Frontend", "accordion", "table"],
+  "keywords": [
+    "React",
+    "Frontend",
+    "accordion",
+    "table"
+  ],
   "author": "Giulliano Macedo",
   "license": "ISC",
   "bugs": {
@@ -46,10 +51,12 @@
     "babel-register": "^6.26.0",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
+    "moment": "^2.20.1",
     "node-sass": "^4.7.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-moment": "^0.6.8",
     "react-router-dom": "^4.2.2",
     "react-test-renderer": "^16.2.0",
     "sass-loader": "^6.0.6",

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Moment from 'react-moment';
 import preload from '../../data.json';
 
 class Table extends Component {
@@ -18,8 +19,9 @@ class Table extends Component {
           {'\u00A0'}
         </div>
         <div>
-          {element.attributes.timeStarted}
-          {'\u00A0'}
+          <Moment format="YYYY/MM/DD HH:mm">
+            {element.attributes.timeStarted}
+          </Moment>
         </div>
         <div className="state"> {element.attributes.state}</div>
         <div className="status">
