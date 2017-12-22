@@ -3,3 +3,14 @@ $font-stack: Helvetica Neue, Helvetica, sans-serif;
 @import './normalize.scss';
 @import './colors.scss';
 @import './table.scss';
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  :before {
+    display: table;
+    content: '';
+  }
+}
