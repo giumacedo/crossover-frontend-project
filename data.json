@@ -1,0 +1,68 @@
+{
+  "tableHeader": [
+    "Changelist / Build",
+    "Owner",
+    "Time Started",
+    "State",
+    "Metrics",
+    "Build",
+    "Unit Test",
+    "Functional Test"
+  ],
+  "elements": [
+    {
+      "type": "build",
+      "id": "Tenrox-R1_1235",
+      "attributes": {
+        "owner": "",
+        "time-started": "",
+        "state": "Pending"
+      }
+    },
+    {
+      "type": "firewall",
+      "id": "432462",
+      "attributes": {
+        "owner": "jstuck",
+        "time-started": "2014-04-18T12:12:00.000Z",
+        "state": "Running"
+      }
+    },
+    {
+      "type": "firewall",
+      "id": "432461",
+      "attributes": {
+        "owner": "samy",
+        "time-started": "2014-04-18T10:53:00.000Z",
+        "state": "Rejected"
+      }
+    },
+    {
+      "type": "build",
+      "id": "Tenrox-R1_1234",
+      "attributes": {
+        "owner": "",
+        "time-started": "2014-04-17T09:42:00.000Z",
+        "state": "Complete"
+      }
+    },
+    {
+      "type": "firewall",
+      "id": "432460",
+      "attributes": {
+        "owner": "samy",
+        "time-started": "2014-04-17T07:51:00.000Z",
+        "state": "Rejected"
+      }
+    },
+    {
+      "type": "firewall",
+      "id": "432460",
+      "attributes": {
+        "owner": "samy",
+        "time-started": "2014-04-16T06:43:00.000Z",
+        "state": "Accepted"
+      }
+    }
+  ]
+}
