@@ -4,18 +4,16 @@
   "description": "Giulliano Macedo test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "lint": "eslint **/*.{js,jsx} --quiet",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/giumacedo/crossover-frontend-project.git"
   },
-  "keywords": [
-    "React",
-    "Frontend",
-    "accordion",
-    "table"
-  ],
+  "keywords": ["React", "Frontend", "accordion", "table"],
   "author": "Giulliano Macedo",
   "license": "ISC",
   "bugs": {
@@ -47,6 +45,8 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-register": "^6.26.0",
     "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
