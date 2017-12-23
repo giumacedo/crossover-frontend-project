@@ -6,10 +6,14 @@ class Table extends Component {
   state = {
     header: preload.tableHeader,
     cells: preload.elements,
-    selected: ''
+    selected: -1
   };
   onSelect = id => {
-    this.setState({ selected: id });
+    if (this.state.selected === id) {
+      this.setState({ selected: -1 });
+    } else {
+      this.setState({ selected: id });
+    }
   };
   buildTableHeader = tableHeader => {
     const header = tableHeader.map(title => <div key={title}>{title}</div>);
