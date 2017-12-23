@@ -5,7 +5,11 @@ import preload from '../../data.json';
 class Table extends Component {
   state = {
     header: preload.tableHeader,
-    cells: preload.elements
+    cells: preload.elements,
+    selected: ''
+  };
+  onSelect = id => {
+    this.setState({ selected: id });
   };
   buildTableHeader = tableHeader => {
     const header = tableHeader.map(title => <div key={title}>{title}</div>);
@@ -13,7 +17,15 @@ class Table extends Component {
   };
   buildTableRow = tableRow => {
     const row = tableRow.map(element => (
-      <TableRow key={element.id} {...element} toggleOne={this.toggleOne} />
+      <TableRow
+        key={element.id}
+        selected={
+          element.id === this.state.selected &&
+          element.attributes.state !== 'pending'
+        }
+        {...element}
+        onClick={this.onSelect}
+      />
     ));
     return row;
   };

@@ -53,12 +53,14 @@
     overflow-y: hidden;
     transition: height 0.5s;
     transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s;
+    cursor: pointer;
     &.selected {
       height: 200px;
     }
     &.pending {
       color: $FrenchGray;
       background: linear-gradient(to right, $FrenchGrayAlpha, $White);
+      cursor: default;
       border: 1px solid $FrenchGray;
     }
     &.running {
