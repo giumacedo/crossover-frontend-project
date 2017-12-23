@@ -63,7 +63,7 @@
           "maintainability": {
             "title": "Maintainability",
             "value": "53",
-            "type": "sucess"
+            "type": "fail"
           },
           "security": {
             "title": "Security",
