@@ -155,7 +155,12 @@ class TableRow extends Component {
           role="presentation"
         >
           <div className="header-item">
-            <i>{this.state.data.type}</i> {'\u00A0'}
+            <i
+              className={`fa ${this.state.data.type === 'build'
+                ? ' fa-desktop'
+                : 'fa-th'}`}
+            />{' '}
+            {'\u00A0'}
             <span className="id">{this.state.data.id}</span>
           </div>
           <div className="header-item">

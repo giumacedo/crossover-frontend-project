@@ -24,6 +24,7 @@
     .header-item {
       text-overflow: ellipsis;
       white-space: nowrap;
+      position: relative;
       width: 12%;
       float: left;
       &:first-child {
@@ -31,6 +32,10 @@
       }
       &:nth-child(3) {
         width: 15%;
+      }
+      .id {
+        position: absolute;
+        left: 30px;
       }
     }
   }

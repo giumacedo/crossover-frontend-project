@@ -1,8 +1,10 @@
 $font-stack: sans-serif;
+$fa-font-path: '~font-awesome/fonts';
 
 @import './normalize.scss';
 @import './colors.scss';
 @import './table.scss';
+@import '~font-awesome/scss/font-awesome.scss';
 
 .container {
   max-width: 1170px;
