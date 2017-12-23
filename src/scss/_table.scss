@@ -5,7 +5,7 @@
   padding: 5px 10px;
   font-size: 13px;
   min-width: 1024px;
-  font-weight: bold;
+  font-weight: 500;
   background-color: $Silver;
   display: inline-block;
   .table-header > div,
@@ -52,19 +52,23 @@
     line-height: 2.1;
     &.pending {
       color: $FrenchGray;
+      background: linear-gradient(to right, $FrenchGrayAlpha, $White);
       border: 1px solid $FrenchGray;
     }
     &.running {
       color: $Danuve;
+      background: linear-gradient(to right, $DanuveAlpha, $White);
       border: 1px solid $Danuve;
     }
     &.rejected {
       color: $Monza;
+      background: linear-gradient(to right, $MonzaAlpha, $White);
       border: 1px solid $Monza;
     }
     &.complete,
     &.accepted {
       color: $FernGreen;
+      background: linear-gradient(to right, $FernGreenAlpha, $White);
       border: 1px solid $FernGreen;
     }
     &:after {
