@@ -23,9 +23,11 @@ class Table extends Component {
     const row = tableRow.map(element => (
       <TableRow
         key={element.id}
+        // props to check if element is selected or its state is pending or running
         selected={
           element.id === this.state.selected &&
-          element.attributes.state !== 'pending'
+          element.attributes.state !== 'pending' &&
+          element.attributes.state !== 'running'
         }
         {...element}
         onClick={this.onSelect}

@@ -10,12 +10,14 @@ class TableRow extends Component {
     };
   }
   handleClick = () => {
+    // update parent state with element selected
     this.props.onClick(this.props.id);
   };
   render() {
     return (
       <div
         key={this.state.data.id}
+        // check if element has received props selected
         className={`table-row ${this.props.selected ? ' selected' : ''} ${this
           .state.data.attributes.state}`}
         onClick={this.handleClick}
@@ -23,7 +25,7 @@ class TableRow extends Component {
       >
         <div className="table-row-header">
           <i>{this.state.data.type}</i> {'\u00A0'}
-          <span>{this.state.data.id}</span>
+          <span className="id">{this.state.data.id}</span>
         </div>
         <div className="table-row-header">
           {this.state.data.attributes.owner}

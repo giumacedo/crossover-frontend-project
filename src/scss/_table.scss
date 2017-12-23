@@ -54,6 +54,10 @@
     cursor: pointer;
     &.selected {
       height: 200px;
+      .id {
+        text-decoration: underline;
+        color: $Danuve;
+      }
     }
     &.pending {
       color: $FrenchGray;
@@ -63,6 +67,7 @@
     }
     &.running {
       color: $Danuve;
+      cursor: default;
       background: linear-gradient(to right, $DanuveAlpha, $White);
       border: 1px solid $Danuve;
     }
