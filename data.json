@@ -97,7 +97,9 @@
         {
           "type": "result",
           "status": "changeAccepted",
-          "title": "Auto-Merged",
+          "statusTitle": "Change Accepted",
+          "statusText": "Auto-Merged",
+          "title": "Result",
           "time": "2014-04-17T10:46:0"
         }
       ]
@@ -161,7 +163,9 @@
         {
           "type": "result",
           "status": "changeAccepted",
-          "title": "Auto-Merged",
+          "statusTitle": "Change Accepted",
+          "statusText": "Auto-Merged",
+          "title": "Result",
           "time": "2014-04-17T10:46:0"
         }
       ]
@@ -225,7 +229,9 @@
         {
           "type": "result",
           "status": "changeAccepted",
-          "title": "Auto-Merged",
+          "statusTitle": "Change Accepted",
+          "statusText": "Auto-Merged",
+          "title": "Result",
           "time": "2014-04-17T10:46:0"
         }
       ]
@@ -289,7 +295,9 @@
         {
           "type": "result",
           "status": "changeAccepted",
-          "title": "Auto-Merged",
+          "statusTitle": "Change Accepted",
+          "statusText": "Auto-Merged",
+          "title": "Result",
           "time": "2014-04-17T10:46:0"
         }
       ]

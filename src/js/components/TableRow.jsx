@@ -45,7 +45,7 @@ class TableRow extends Component {
             <div className="item">
               <div>Release</div>
             </div>
-            <div className="item">
+            <div className="item-100">
               <Moment format="HH:mm - MM/DD/YYYY ">
                 <div>{rowContent.time}</div>
               </Moment>
@@ -63,7 +63,7 @@ class TableRow extends Component {
             <div className="item">
               <div>Release</div>
             </div>
-            <div className="item">
+            <div className="item-100">
               <div>{rowContent.time}</div>
             </div>
           </div>
@@ -79,7 +79,7 @@ class TableRow extends Component {
             <div className="item">
               <div>Release</div>
             </div>
-            <div className="item">
+            <div className="item-100">
               <div>{rowContent.time}</div>
             </div>
           </div>
@@ -88,14 +88,14 @@ class TableRow extends Component {
 
       case 'result':
         content = (
-          <div className="content">
-            <div className="item">
-              <div>Debug</div>
+          <div className="content result">
+            <div className="item-100">
+              <div>{rowContent.statusTitle}</div>
             </div>
-            <div className="item">
-              <div>Release</div>
+            <div className="item-100">
+              <div>{rowContent.statusText}</div>
             </div>
-            <div className="item">
+            <div className="item-100">
               <div>{rowContent.time}</div>
             </div>
           </div>

@@ -57,6 +57,16 @@
       height: 25px;
       border: 1px solid $SilverSand;
       background: $Alto;
+      &.running {
+        background: linear-gradient(to right, $Danuve 50%, $Alto 50%);
+      }
+      &.rejected {
+        background: $Monza;
+      }
+      &.completed,
+      &.accepted {
+        background: $FernGreen;
+      }
     }
     .state {
       text-transform: capitalize;
@@ -93,6 +103,10 @@
           float: left;
           width: 50%;
         }
+        .item-100 {
+          float: left;
+          width: 100%;
+        }
       }
     }
     &.selected {
@@ -116,26 +130,17 @@
       cursor: default;
       background: linear-gradient(to right, $DanuveAlpha, $White);
       border: 1px solid $Danuve;
-      .square {
-        background: linear-gradient(to right, $Danuve 50%, $Alto 50%);
-      }
     }
     &.rejected {
       color: $Monza;
       background: linear-gradient(to right, $MonzaAlpha, $White);
       border: 1px solid $Monza;
-      .square {
-        background: $Monza;
-      }
     }
     &.complete,
     &.accepted {
       color: $FernGreen;
       background: linear-gradient(to right, $FernGreenAlpha, $White);
       border: 1px solid $FernGreen;
-      .square {
-        background: $FernGreen;
-      }
     }
   }
 }
