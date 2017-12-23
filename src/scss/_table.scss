@@ -49,8 +49,8 @@
     margin-bottom: 10px;
     line-height: 2.1;
     overflow-y: hidden;
-    transition: height 0.5s;
-    transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s;
+    transition: height 0.3s;
+    transition: height 0.3s, padding-top 0.3s, padding-bottom 0.3s;
     cursor: pointer;
     &.selected {
       height: 200px;

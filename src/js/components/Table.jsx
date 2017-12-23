@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TableRow from './TableRow';
-import preload from '../../data.json';
+import preload from '../../../data.json';
 
 class Table extends Component {
   state = {
