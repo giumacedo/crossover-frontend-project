@@ -50,6 +50,12 @@
     padding: 3px 0 0 5px;
     margin-bottom: 10px;
     line-height: 2.1;
+    overflow-y: hidden;
+    transition: height 0.5s;
+    transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s;
+    &.selected {
+      height: 200px;
+    }
     &.pending {
       color: $FrenchGray;
       background: linear-gradient(to right, $FrenchGrayAlpha, $White);
