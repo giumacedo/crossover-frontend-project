@@ -14,8 +14,6 @@
     width: 100%;
     height: auto;
     & > div {
-      white-space: nowrap;
-      text-overflow: ellipsis;
       overflow: hidden;
       padding: 8px 0;
     }
@@ -53,6 +51,11 @@
     overflow-y: hidden;
     transition: height 0.3s;
     transition: height 0.3s, padding-top 0.3s, padding-bottom 0.3s;
+    .table-row-contet {
+      width: 100%;
+      padding: 10px 0;
+      display: inline-flex;
+    }
     .table-row-header {
       cursor: pointer;
     }
@@ -104,35 +107,48 @@
       color: $Monza;
       background: linear-gradient(to right, $MonzaAlpha 10%, $White 90%);
       border: 1px solid $Monza;
+      .section-text {
+        color: $Monza;
+      }
     }
-    &.complete,
     &.accepted {
       color: $FernGreen;
       background: linear-gradient(to right, $FernGreenAlpha, $White);
       border: 1px solid $FernGreen;
+      .section-text {
+        color: $SelectiveYellow;
+      }
+    }
+    &.complete {
+      color: $FernGreen;
+      background: linear-gradient(to right, $FernGreenAlpha, $White);
+      border: 1px solid $FernGreen;
+      .section-text {
+        color: $FernGreen;
+      }
     }
   }
 
-  .table-row-contet {
-    width: 100%;
-    padding: 10px 0;
-    display: inline-flex;
-    .section {
-      display: block;
-      width: 18%;
-      height: 140px;
-      position: relative;
-      margin: 0 10px;
-      background: none;
-      cursor: pointer;
-      &.fail {
-        border: 2px solid $Monza;
-        background: linear-gradient(to bottom, $MonzaAlpha, $White);
+  .section {
+    display: block;
+    width: 18%;
+    color: black;
+    height: 140px;
+    position: relative;
+    margin: 0 10px;
+    background: none;
+    cursor: pointer;
+    &.fail {
+      border: 2px solid $Monza;
+      background: linear-gradient(to bottom right, $MonzaAlpha, $White);
+      .section-title {
         color: $Monza;
       }
-      &.sucess {
-        border: 2px solid $FernGreen;
-        background: linear-gradient(to bottom, $FernGreenAlpha, $White);
+    }
+    &.sucess {
+      border: 2px solid $FernGreen;
+      background: linear-gradient(to bottom right, $FernGreenAlpha, $White);
+      .section-title {
         color: $FernGreen;
       }
     }
@@ -148,16 +164,44 @@
       float: left;
       width: 50%;
     }
-    .result {
+    .section-item-100 {
+      float: left;
+      width: 100%;
+    }
+    .action {
+      padding: 2px 0;
+      font-size: 12px;
+    }
+    .action-button {
+      background: $Danuve;
+      color: $White;
+      padding: 0 20px;
+    }
+    .action-select {
+      -webkit-appearance: none;
+      color: $Danuve;
+      border-radius: 0px;
+      padding: 0 20px;
+    }
+    &.result {
       border: none;
       cursor: default;
       .section-title {
         position: relative;
       }
-    }
-    .section-item-100 {
-      float: left;
-      width: 100%;
+      .section-item {
+        line-height: 1.1;
+        margin: 5px 0;
+        width: 100%;
+      }
+      .section-footer {
+        position: absolute;
+        bottom: 5px;
+        left: 25%;
+      }
+      .section-status-text {
+        font-size: 26px;
+      }
     }
   }
 }

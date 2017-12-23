@@ -14,16 +14,22 @@ class TableRow extends Component {
     let resultButton;
 
     if (rowContent.state === 'accepted') {
-      resultButton = <button>Merge Build</button>;
+      resultButton = <button className="action-button">Merge Build</button>;
     }
     if (rowContent.state === 'rejected') {
-      resultButton = <button>Find Issues</button>;
+      resultButton = <button className="action-button">Find Issues</button>;
     }
     if (rowContent.state === 'complete') {
       resultButton = (
         <div>
-          <button>Deploy</button> <span>to:</span>
-          <select>Production</select>
+          <div className="action">
+            <button className="action-button">Deploy</button> <span>to:</span>
+          </div>
+          <div className="action">
+            <select className="action-select">
+              <option value="grapefruit">Production</option>
+            </select>
+          </div>
         </div>
       );
     }
@@ -104,14 +110,14 @@ class TableRow extends Component {
 
       case 'result':
         content = (
-          <div className="section-content result">
-            <div className="section-item-100">
-              <div>{rowContent.statusTitle}</div>
+          <div className="result">
+            <div className="section-item">
+              <div className="section-text">{rowContent.statusTitle}</div>
+              <div className="section-text section-status-text">
+                {rowContent.statusText}
+              </div>
             </div>
-            <div className="section-item-100">
-              <div>{rowContent.statusText}</div>
-            </div>
-            <div className="section-item-100">{resultButton}</div>
+            <div className="section-footer">{resultButton}</div>
           </div>
         );
         break;
