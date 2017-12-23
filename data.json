@@ -96,10 +96,11 @@
         },
         {
           "type": "result",
-          "status": "changeAccepted",
-          "statusTitle": "Change Accepted",
-          "statusText": "Auto-Merged",
-          "title": "Result",
+          "status": "result",
+          "state": "rejected",
+          "statusTitle": "Change Rejected",
+          "statusText": "Metrics Reduction",
+          "title": "Result:",
           "time": "2014-04-17T10:46:0"
         }
       ]
@@ -119,7 +120,7 @@
       "content": [
         {
           "type": "metrics",
-          "status": "fail",
+          "status": "sucess",
           "title": "Metrics",
           "test": {
             "title": "Test",
@@ -162,10 +163,11 @@
         },
         {
           "type": "result",
-          "status": "changeAccepted",
-          "statusTitle": "Change Accepted",
-          "statusText": "Auto-Merged",
-          "title": "Result",
+          "status": "result",
+          "state": "complete",
+          "statusTitle": "",
+          "statusText": "Complete",
+          "title": "Result:",
           "time": "2014-04-17T10:46:0"
         }
       ]
@@ -182,59 +184,7 @@
         "unitTest": "",
         "functionalTest": ""
       },
-      "content": [
-        {
-          "type": "metrics",
-          "status": "fail",
-          "title": "Metrics",
-          "test": {
-            "title": "Test",
-            "value": "64",
-            "type": "sucess"
-          },
-          "maintainability": {
-            "title": "Maintainability",
-            "value": "53",
-            "type": "sucess"
-          },
-          "security": {
-            "title": "Security",
-            "value": "53",
-            "type": "regular"
-          },
-          "workmanship": {
-            "title": "Workmanship",
-            "value": "53",
-            "type": "regular"
-          }
-        },
-        {
-          "type": "build",
-          "status": "sucess",
-          "title": "Build",
-          "time": "2014-04-17T12:12:0"
-        },
-        {
-          "type": "unitTest",
-          "status": "sucess",
-          "title": "Unit Test",
-          "time": "2014-04-17T10:46:0"
-        },
-        {
-          "type": "functionalTest",
-          "status": "sucess",
-          "title": "Functional Test",
-          "time": "2014-04-17T10:46:0"
-        },
-        {
-          "type": "result",
-          "status": "changeAccepted",
-          "statusTitle": "Change Accepted",
-          "statusText": "Auto-Merged",
-          "title": "Result",
-          "time": "2014-04-17T10:46:0"
-        }
-      ]
+      "content": []
     },
     {
       "type": "firewall",
@@ -294,10 +244,11 @@
         },
         {
           "type": "result",
-          "status": "changeAccepted",
+          "status": "result",
+          "state": "accepted",
           "statusTitle": "Change Accepted",
           "statusText": "Auto-Merged",
-          "title": "Result",
+          "title": "Result:",
           "time": "2014-04-17T10:46:0"
         }
       ]

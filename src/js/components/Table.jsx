@@ -16,7 +16,11 @@ class Table extends Component {
     }
   };
   buildTableHeader = tableHeader => {
-    const header = tableHeader.map(title => <div key={title}>{title}</div>);
+    const header = tableHeader.map(title => (
+      <div key={title} className="header-item">
+        {title}
+      </div>
+    ));
     return header;
   };
   buildTableRow = tableRow => {
@@ -25,9 +29,7 @@ class Table extends Component {
         key={element.id}
         // props to check if element is selected or its state is pending or running
         selected={
-          element.id === this.state.selected &&
-          element.attributes.state !== 'pending' &&
-          element.attributes.state !== 'running'
+          element.id === this.state.selected && element.content.length > 0
         }
         {...element}
         onClick={this.onSelect}
