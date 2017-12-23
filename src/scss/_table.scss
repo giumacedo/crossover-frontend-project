@@ -21,9 +21,6 @@
     &:nth-child(3) {
       width: 15%;
     }
-    &:last-child {
-      border: none;
-    }
   }
 
   .table-content {
@@ -79,14 +76,6 @@
       color: $FernGreen;
       background: linear-gradient(to right, $FernGreenAlpha, $White);
       border: 1px solid $FernGreen;
-    }
-    &:after {
-      visibility: hidden;
-      display: block;
-      font-size: 0;
-      content: ' ';
-      clear: both;
-      height: 0;
     }
     .state {
       text-transform: capitalize;
