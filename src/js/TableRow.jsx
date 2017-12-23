@@ -21,32 +21,42 @@ class TableRow extends Component {
         onClick={this.handleClick}
         role="presentation"
       >
-        <div>
-          {this.state.data.type} {'\u00A0'} {this.state.data.id}
+        <div className="table-row-header">
+          <i>{this.state.data.type}</i> {'\u00A0'}
+          <span>{this.state.data.id}</span>
         </div>
-        <div>
+        <div className="table-row-header">
           {this.state.data.attributes.owner}
           {'\u00A0'}
         </div>
-        <div>
+        <div className="table-row-header">
           <Moment format="MM/DD/YYYY HH:mm">
             {this.state.data.attributes.timeStarted}
           </Moment>
         </div>
-        <div className="state"> {this.state.data.attributes.state}</div>
-        <div className="status">
+        <div className="table-row-header state">
+          {' '}
+          {this.state.data.attributes.state}
+        </div>
+        <div className="table-row-header status">
           <div className={`square ${this.state.data.attributes.metric}`} />
         </div>
-        <div className="status">
+        <div className="table-row-header status">
           <div className={`square ${this.state.data.attributes.build}`} />
         </div>
-        <div className="status">
+        <div className="table-row-header status">
           <div className={`square ${this.state.data.attributes.unitTest}`} />
         </div>
-        <div className="status">
+        <div className="table-row-header status">
           <div
             className={`square ${this.state.data.attributes.functionalTest}`}
           />
+        </div>
+        <div className="table-row-contet">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
         </div>
       </div>
     );

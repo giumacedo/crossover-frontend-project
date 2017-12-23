@@ -10,7 +10,7 @@
   display: inline-block;
 
   .table-header > div,
-  .table-row > div {
+  .table-row > .table-row-header {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 12%;
@@ -47,7 +47,7 @@
   .table-row {
     display: inline-block;
     width: 100%;
-    height: auto;
+    height: 33px;
     padding: 3px 0 0 5px;
     margin-bottom: 10px;
     line-height: 2.1;
@@ -111,6 +111,11 @@
       &.rejected {
         background: $Monza;
       }
+    }
+    .table-row-contet {
+      width: 100%;
+      padding: 30px 0;
+      float: left;
     }
   }
 }
