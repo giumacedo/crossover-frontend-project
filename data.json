@@ -21,7 +21,8 @@
         "build": "",
         "unitTest": "",
         "functionalTest": ""
-      }
+      },
+      "content": []
     },
     {
       "type": "firewall",
@@ -34,7 +35,8 @@
         "build": "",
         "unitTest": "",
         "functionalTest": ""
-      }
+      },
+      "content": []
     },
     {
       "type": "firewall",
@@ -47,7 +49,58 @@
         "build": "completed",
         "unitTest": "completed",
         "functionalTest": "completed"
-      }
+      },
+      "content": [
+        {
+          "type": "metrics",
+          "status": "fail",
+          "title": "Metrics",
+          "test": {
+            "title": "Test",
+            "value": "64",
+            "type": "sucess"
+          },
+          "maintainability": {
+            "title": "Maintainability",
+            "value": "53",
+            "type": "sucess"
+          },
+          "security": {
+            "title": "Security",
+            "value": "53",
+            "type": "regular"
+          },
+          "workmanship": {
+            "title": "Workmanship",
+            "value": "53",
+            "type": "regular"
+          }
+        },
+        {
+          "type": "build",
+          "status": "sucess",
+          "title": "Build",
+          "time": "2014-04-17T12:12:0"
+        },
+        {
+          "type": "unitTest",
+          "status": "sucess",
+          "title": "Unit Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "functionalTest",
+          "status": "sucess",
+          "title": "Functional Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "result",
+          "status": "changeAccepted",
+          "title": "Auto-Merged",
+          "time": "2014-04-17T10:46:0"
+        }
+      ]
     },
     {
       "type": "build",
@@ -60,7 +113,58 @@
         "build": "completed",
         "unitTest": "completed",
         "functionalTest": "completed"
-      }
+      },
+      "content": [
+        {
+          "type": "metrics",
+          "status": "fail",
+          "title": "Metrics",
+          "test": {
+            "title": "Test",
+            "value": "64",
+            "type": "sucess"
+          },
+          "maintainability": {
+            "title": "Maintainability",
+            "value": "53",
+            "type": "sucess"
+          },
+          "security": {
+            "title": "Security",
+            "value": "53",
+            "type": "regular"
+          },
+          "workmanship": {
+            "title": "Workmanship",
+            "value": "53",
+            "type": "regular"
+          }
+        },
+        {
+          "type": "build",
+          "status": "sucess",
+          "title": "Build",
+          "time": "2014-04-17T12:12:0"
+        },
+        {
+          "type": "unitTest",
+          "status": "sucess",
+          "title": "Unit Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "functionalTest",
+          "status": "sucess",
+          "title": "Functional Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "result",
+          "status": "changeAccepted",
+          "title": "Auto-Merged",
+          "time": "2014-04-17T10:46:0"
+        }
+      ]
     },
     {
       "type": "firewall",
@@ -73,7 +177,58 @@
         "build": "",
         "unitTest": "",
         "functionalTest": ""
-      }
+      },
+      "content": [
+        {
+          "type": "metrics",
+          "status": "fail",
+          "title": "Metrics",
+          "test": {
+            "title": "Test",
+            "value": "64",
+            "type": "sucess"
+          },
+          "maintainability": {
+            "title": "Maintainability",
+            "value": "53",
+            "type": "sucess"
+          },
+          "security": {
+            "title": "Security",
+            "value": "53",
+            "type": "regular"
+          },
+          "workmanship": {
+            "title": "Workmanship",
+            "value": "53",
+            "type": "regular"
+          }
+        },
+        {
+          "type": "build",
+          "status": "sucess",
+          "title": "Build",
+          "time": "2014-04-17T12:12:0"
+        },
+        {
+          "type": "unitTest",
+          "status": "sucess",
+          "title": "Unit Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "functionalTest",
+          "status": "sucess",
+          "title": "Functional Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "result",
+          "status": "changeAccepted",
+          "title": "Auto-Merged",
+          "time": "2014-04-17T10:46:0"
+        }
+      ]
     },
     {
       "type": "firewall",
@@ -86,7 +241,58 @@
         "build": "completed",
         "unitTest": "completed",
         "functionalTest": "completed"
-      }
+      },
+      "content": [
+        {
+          "type": "metrics",
+          "status": "sucess",
+          "title": "Metrics",
+          "test": {
+            "title": "Test",
+            "value": "64",
+            "type": "sucess"
+          },
+          "maintainability": {
+            "title": "Maintainability",
+            "value": "53",
+            "type": "sucess"
+          },
+          "security": {
+            "title": "Security",
+            "value": "64",
+            "type": "regular"
+          },
+          "workmanship": {
+            "title": "Workmanship",
+            "value": "72",
+            "type": "regular"
+          }
+        },
+        {
+          "type": "build",
+          "status": "sucess",
+          "title": "Build",
+          "time": "2014-04-17T12:12:0"
+        },
+        {
+          "type": "unitTest",
+          "status": "sucess",
+          "title": "Unit Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "functionalTest",
+          "status": "sucess",
+          "title": "Functional Test",
+          "time": "2014-04-17T10:46:0"
+        },
+        {
+          "type": "result",
+          "status": "changeAccepted",
+          "title": "Auto-Merged",
+          "time": "2014-04-17T10:46:0"
+        }
+      ]
     }
   ]
 }

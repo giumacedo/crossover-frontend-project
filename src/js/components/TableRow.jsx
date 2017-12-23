@@ -9,11 +9,119 @@ class TableRow extends Component {
       data: props
     };
   }
+  buildTableRowContentByType = rowContent => {
+    let content;
+
+    switch (rowContent.type) {
+      case 'metrics':
+        content = (
+          <div className="content">
+            <div className="item">
+              <div>{rowContent.test.value}</div>
+              <div>{rowContent.test.title}</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.maintainability.value}</div>
+              <div>{rowContent.maintainability.title}</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.security.value}</div>
+              <div>{rowContent.security.title}</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.workmanship.value}</div>
+              <div>{rowContent.workmanship.title}</div>
+            </div>
+          </div>
+        );
+        break;
+
+      case 'build':
+        content = (
+          <div className="content">
+            <div className="item">
+              <div>Debug</div>
+            </div>
+            <div className="item">
+              <div>Release</div>
+            </div>
+            <div className="item">
+              <Moment format="HH:mm - MM/DD/YYYY ">
+                <div>{rowContent.time}</div>
+              </Moment>
+            </div>
+          </div>
+        );
+        break;
+
+      case 'unitTest':
+        content = (
+          <div className="content">
+            <div className="item">
+              <div>Debug</div>
+            </div>
+            <div className="item">
+              <div>Release</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.time}</div>
+            </div>
+          </div>
+        );
+        break;
+
+      case 'functionalTest':
+        content = (
+          <div className="content">
+            <div className="item">
+              <div>Debug</div>
+            </div>
+            <div className="item">
+              <div>Release</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.time}</div>
+            </div>
+          </div>
+        );
+        break;
+
+      case 'result':
+        content = (
+          <div className="content">
+            <div className="item">
+              <div>Debug</div>
+            </div>
+            <div className="item">
+              <div>Release</div>
+            </div>
+            <div className="item">
+              <div>{rowContent.time}</div>
+            </div>
+          </div>
+        );
+        break;
+
+      default:
+        return null;
+    }
+    return content;
+  };
+  buildTableRowContent = tableRowContent => {
+    const content = tableRowContent.map(rowContent => (
+      <button key={rowContent.title} className={`section ${rowContent.status}`}>
+        <div className="title">{rowContent.title}</div>
+        {this.buildTableRowContentByType(rowContent)}
+      </button>
+    ));
+    return content;
+  };
   handleClick = () => {
     // update parent state with element selected
     this.props.onClick(this.props.id);
   };
   render() {
+    const tableRowContent = this.buildTableRowContent(this.state.data.content);
     return (
       <div
         key={this.state.data.id}
@@ -54,12 +162,7 @@ class TableRow extends Component {
             className={`square ${this.state.data.attributes.functionalTest}`}
           />
         </div>
-        <div className="table-row-contet">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-        </div>
+        <div className="table-row-contet">{tableRowContent}</div>
       </div>
     );
   }
