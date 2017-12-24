@@ -45,19 +45,27 @@ class TableRow extends Component {
         content = (
           <div className="section-content">
             <div className="section-item">
-              <div>{rowContent.test.value}</div>
+              <div className={`arrow ${rowContent.test.type}`}>
+                {rowContent.test.value}
+              </div>
               <div>{rowContent.test.title}</div>
             </div>
             <div className="section-item">
-              <div>{rowContent.maintainability.value}</div>
+              <div className={`arrow ${rowContent.maintainability.type}`}>
+                {rowContent.maintainability.value}
+              </div>
               <div>{rowContent.maintainability.title}</div>
             </div>
             <div className="section-item">
-              <div>{rowContent.security.value}</div>
+              <div className={`arrow ${rowContent.security.type}`}>
+                {rowContent.security.value}
+              </div>
               <div>{rowContent.security.title}</div>
             </div>
             <div className="section-item">
-              <div>{rowContent.workmanship.value}</div>
+              <div className={`arrow ${rowContent.workmanship.type}`}>
+                {rowContent.workmanship.value}
+              </div>
               <div>{rowContent.workmanship.title}</div>
             </div>
           </div>
