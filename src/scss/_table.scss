@@ -217,6 +217,15 @@
       .test-good {
         color: $Atlantis;
       }
+      .pie-chart {
+        width: 72px;
+        position: absolute;
+        height: 72px;
+        top: 25px;
+        left: 15px;
+        border-radius: 50%;
+        background: linear-gradient(to right, $Apple 50%, $Jaffa 0);
+      }
     }
     &.result {
       border: none;

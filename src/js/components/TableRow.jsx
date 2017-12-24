@@ -90,7 +90,7 @@ class TableRow extends Component {
           <div className="section-test">
             <div className="section-content test">
               <div className="section-item">
-                <i className="fa fa-pie-chart" aria-hidden="true" />
+                <div className="pie-chart" />
               </div>
               <div className="section-item">
                 <div
