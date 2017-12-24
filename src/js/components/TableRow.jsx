@@ -33,7 +33,7 @@ class TableRow extends Component {
           </div>
           <div className="action">
             <select className="action-select">
-              <option value="grapefruit">Production</option>
+              <option value="production">Production</option>
             </select>
           </div>
         </div>
