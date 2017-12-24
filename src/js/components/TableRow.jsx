@@ -93,13 +93,19 @@ class TableRow extends Component {
                 <i className="fa fa-pie-chart" aria-hidden="true" />
               </div>
               <div className="section-item">
-                <div>{rowContent.passed}</div>
-                <div>tests passed</div>
+                <div
+                  className={`big ${rowContent.passed >= 70
+                    ? ' test-good'
+                    : 'test-regular'} `}
+                >
+                  {rowContent.passed}%
+                </div>
+                <div className="small">tests passed</div>
               </div>
             </div>
             <div className="section-footer">
-              <div>{rowContent.covered}</div>
-              <div>code covered</div>
+              <div className="bold">{rowContent.covered}%</div>
+              <div className="small">code covered</div>
             </div>
           </div>
         );

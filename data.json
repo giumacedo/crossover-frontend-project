@@ -86,15 +86,15 @@
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "passed": "90%",
-          "covered": "10%"
+          "passed": "90",
+          "covered": "10"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "passed": "80%",
-          "covered": "20%"
+          "passed": "80",
+          "covered": "20"
         },
         {
           "type": "result",
@@ -154,15 +154,15 @@
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "passed": "83%",
-          "covered": "16%"
+          "passed": "83",
+          "covered": "16"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "passed": "70%",
-          "covered": "30%"
+          "passed": "70",
+          "covered": "30"
         },
         {
           "type": "result",
@@ -236,15 +236,15 @@
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "passed": "73%",
-          "covered": "76%"
+          "passed": "73",
+          "covered": "76"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "passed": "68%",
-          "covered": "23%"
+          "passed": "68",
+          "covered": "23"
         },
         {
           "type": "result",

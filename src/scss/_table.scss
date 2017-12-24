@@ -162,8 +162,14 @@
         color: $FernGreen;
       }
     }
+    .small {
+      font-size: 10px;
+    }
+    .big {
+      font-size: 28px;
+    }
     .section-content {
-      height: 65px;
+      height: 70px;
     }
     .section-item {
       float: left;
@@ -187,6 +193,9 @@
       .section-item {
         color: $Astral;
       }
+      .section-content {
+        height: 78px;
+      }
       .fa {
         font-size: 30px;
       }
@@ -194,6 +203,19 @@
     .section-test {
       .section-footer {
         line-height: 1;
+        margin: 0 10px;
+        padding: 2px 0;
+        background: linear-gradient(to right, $Sprout 50%, $Maize 50%);
+      }
+      .section-item {
+        line-height: 1;
+        height: 50px;
+      }
+      .test-regular {
+        color: $PirateGold;
+      }
+      .test-good {
+        color: $Atlantis;
       }
     }
     &.result {
