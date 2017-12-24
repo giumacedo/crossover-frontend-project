@@ -174,19 +174,38 @@
     .section-item {
       float: left;
       width: 50%;
+      position: relative;
       .arrow {
         margin: 0 39px;
       }
+      .arrow-triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        position: absolute;
+        top: -15px;
+        left: 31px;
+        border-width: 0 18px 18px 18px;
+      }
       .fail {
         color: $White;
-        background: $Monza;
+        .arrow-triangle {
+          border-color: transparent transparent $Monza transparent;
+        }
       }
       .sucess {
         color: $White;
-        background: $FernGreen;
+        .arrow-triangle {
+          border-color: transparent transparent $FernGreen transparent;
+        }
       }
       .regular {
-        background: $SelectiveYellow;
+        .arrow-triangle {
+          top: -6px;
+          left: 59px;
+          border-width: 18px 0 18px 18px;
+          border-color: transparent transparent transparent $SelectiveYellow;
+        }
       }
     }
     .action {
@@ -235,7 +254,7 @@
         width: 72px;
         position: absolute;
         height: 72px;
-        top: 25px;
+        top: -10px;
         left: 15px;
         border-radius: 50%;
         background: linear-gradient(to right, $Apple 50%, $Jaffa 0);
