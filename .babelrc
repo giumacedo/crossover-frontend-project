@@ -12,12 +12,16 @@
       }
     ]
   ],
-  "plugins": ["babel-plugin-transform-class-properties"],
+  "plugins": [
+    "babel-plugin-syntax-dynamic-import",
+    "babel-plugin-dynamic-import-webpack",
+    "babel-plugin-transform-class-properties"
+  ],
   "env": {
-    "server": {
+    "test": {
       "plugins": ["transform-es2015-modules-commonjs"]
     },
-    "test": {
+    "server": {
       "plugins": ["transform-es2015-modules-commonjs"]
     }
   }
