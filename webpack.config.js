@@ -36,25 +36,7 @@ const config = {
       {
         // sass / scss loader for webpack
         test: /\.(sass|scss)$/,
-        use: [
-          {
-            loader: 'style-loader' // Adds CSS to the DOM by injecting a <style> tag
-          },
-          {
-            loader: 'css-loader' //  interprets @import and url() like import/require() and will resolve them.
-          },
-          {
-            loader: 'postcss-loader', // postcss loader so we can use autoprefixer
-            options: {
-              config: {
-                path: 'postcss.config.js'
-              }
-            }
-          },
-          {
-            loader: 'sass-loader' // compiles Sass to CSS
-          }
-        ]
+        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
       },
       {
         test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,

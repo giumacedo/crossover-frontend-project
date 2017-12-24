@@ -9,19 +9,14 @@
     "test:coverage": "jest --coverage",
     "test:update": "jest -u",
     "lint": "eslint **/*.{js,jsx} --quiet",
-    "start": "webpack && webpack-dev-server",
+    "start": "webpack && NODE_ENV=server node server.js",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/giumacedo/crossover-frontend-project.git"
   },
-  "keywords": [
-    "React",
-    "Frontend",
-    "accordion",
-    "table"
-  ],
+  "keywords": ["React", "Frontend", "accordion", "table"],
   "author": "Giulliano Macedo",
   "license": "ISC",
   "bugs": {
