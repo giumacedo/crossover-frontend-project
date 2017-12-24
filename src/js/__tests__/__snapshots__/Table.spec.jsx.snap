@@ -1,0 +1,1286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders correctly 1`] = `
+<div
+  className="custom-table"
+>
+  <div
+    className="table-header"
+  >
+    <div
+      className="header-item"
+    >
+      Changelist / Build
+    </div>
+    <div
+      className="header-item"
+    >
+      Owner
+    </div>
+    <div
+      className="header-item"
+    >
+      Time Started
+    </div>
+    <div
+      className="header-item"
+    >
+      State
+    </div>
+    <div
+      className="header-item"
+    >
+      Metrics
+    </div>
+    <div
+      className="header-item"
+    >
+      Build
+    </div>
+    <div
+      className="header-item"
+    >
+      Unit Test
+    </div>
+    <div
+      className="header-item"
+    >
+      Functional Test
+    </div>
+  </div>
+  <div
+    className="table-content"
+  >
+    <div
+      className="table-row  pending"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa  fa-desktop"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            Tenrox-R1_1235
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={null}
+          >
+            Invalid date
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          pending
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      />
+    </div>
+    <div
+      className="table-row  running"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa fa-th"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            432462
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          jstuck
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={"2014-04-18T15:12:00.000Z"}
+          >
+            04/18/2014 12:12
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          running
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square running"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      />
+    </div>
+    <div
+      className="table-row  rejected"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa fa-th"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            432461
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          samy
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={"2014-04-18T13:53:00.000Z"}
+          >
+            04/18/2014 10:53
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          rejected
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square rejected"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      >
+        <div
+          className="section fail"
+        >
+          <div
+            className="section-title"
+          >
+            Metrics
+          </div>
+          <div
+            className="section-content"
+          >
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow sucess"
+              >
+                14
+              </div>
+              <div>
+                Test
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow fail"
+              >
+                23
+              </div>
+              <div>
+                Maintainability
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                33
+              </div>
+              <div>
+                Security
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                43
+              </div>
+              <div>
+                Workmanship
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Build
+          </div>
+          <div>
+            <div
+              className="section-content build"
+            >
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Debug
+                </div>
+              </div>
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Release
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <time
+                dateTime={"2014-04-17T13:39:00.000Z"}
+              >
+                10:39 - 04/17/2014
+              </time>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Unit Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big  test-good "
+                >
+                  90
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                10
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Functional Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big  test-good "
+                >
+                  80
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                20
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section result"
+        >
+          <div
+            className="section-title"
+          >
+            Result
+          </div>
+          <div>
+            <div
+              className="section-content"
+            >
+              <div
+                className="section-text"
+              >
+                Change Rejected
+              </div>
+              <div
+                className="section-text section-status-text"
+              >
+                Metrics Reduction
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <button
+                className="action-button"
+              >
+                Find Issues
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="table-row  complete"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa  fa-desktop"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            Tenrox-R1_1234
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={"2014-04-17T15:12:00.000Z"}
+          >
+            04/17/2014 12:12
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          complete
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      >
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Metrics
+          </div>
+          <div
+            className="section-content"
+          >
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow sucess"
+              >
+                24
+              </div>
+              <div>
+                Test
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow sucess"
+              >
+                73
+              </div>
+              <div>
+                Maintainability
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                93
+              </div>
+              <div>
+                Security
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                13
+              </div>
+              <div>
+                Workmanship
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Build
+          </div>
+          <div>
+            <div
+              className="section-content build"
+            >
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Debug
+                </div>
+              </div>
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Release
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <time
+                dateTime={"2014-04-17T13:42:00.000Z"}
+              >
+                10:42 - 04/17/2014
+              </time>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Unit Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big  test-good "
+                >
+                  83
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                16
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Functional Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big  test-good "
+                >
+                  70
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                30
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section result"
+        >
+          <div
+            className="section-title"
+          >
+            Result
+          </div>
+          <div>
+            <div
+              className="section-content"
+            >
+              <div
+                className="section-text"
+              >
+                
+              </div>
+              <div
+                className="section-text section-status-text"
+              >
+                Complete
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div>
+                <div
+                  className="action"
+                >
+                  <button
+                    className="action-button"
+                  >
+                    Deploy
+                  </button>
+                   
+                  <span>
+                    to:
+                  </span>
+                </div>
+                <div
+                  className="action"
+                >
+                  <select
+                    className="action-select"
+                  >
+                    <option
+                      value="production"
+                    >
+                      Production
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="table-row  rejected"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa fa-th"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            432460
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          samy
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={"2014-04-17T10:51:00.000Z"}
+          >
+            04/17/2014 07:51
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          rejected
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square rejected"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square "
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      />
+    </div>
+    <div
+      className="table-row  accepted"
+    >
+      <div
+        className="table-row-header"
+        onClick={[Function]}
+        role="presentation"
+      >
+        <div
+          className="header-item"
+        >
+          <i
+            className="fa fa-th"
+          />
+           
+           
+          <span
+            className="id"
+          >
+            432459
+          </span>
+        </div>
+        <div
+          className="header-item"
+        >
+          samy
+           
+        </div>
+        <div
+          className="header-item"
+        >
+          <time
+            dateTime={"2014-04-16T09:43:00.000Z"}
+          >
+            04/16/2014 06:43
+          </time>
+        </div>
+        <div
+          className="header-item state"
+        >
+           
+          accepted
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+        <div
+          className="header-item status"
+        >
+          <div
+            className="square completed"
+          />
+        </div>
+      </div>
+      <div
+        className="table-row-contet"
+      >
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Metrics
+          </div>
+          <div
+            className="section-content"
+          >
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow sucess"
+              >
+                64
+              </div>
+              <div>
+                Test
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow sucess"
+              >
+                53
+              </div>
+              <div>
+                Maintainability
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                64
+              </div>
+              <div>
+                Security
+              </div>
+            </div>
+            <div
+              className="section-item"
+            >
+              <div
+                className="arrow regular"
+              >
+                72
+              </div>
+              <div>
+                Workmanship
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Build
+          </div>
+          <div>
+            <div
+              className="section-content build"
+            >
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Debug
+                </div>
+              </div>
+              <div
+                className="section-item"
+              >
+                <i
+                  className="fa fa-desktop"
+                />
+                <div>
+                  Release
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <time
+                dateTime={"2014-04-17T13:46:00.000Z"}
+              >
+                10:46 - 04/17/2014
+              </time>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Unit Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big  test-good "
+                >
+                  73
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                76
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section sucess"
+        >
+          <div
+            className="section-title"
+          >
+            Functional Test
+          </div>
+          <div
+            className="section-test"
+          >
+            <div
+              className="section-content test"
+            >
+              <div
+                className="section-item"
+              >
+                <div
+                  className="pie-chart"
+                />
+              </div>
+              <div
+                className="section-item"
+              >
+                <div
+                  className="big test-regular "
+                >
+                  68
+                  %
+                </div>
+                <div
+                  className="small"
+                >
+                  tests passed
+                </div>
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <div
+                className="bold"
+              >
+                23
+                %
+              </div>
+              <div
+                className="small"
+              >
+                code covered
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="section result"
+        >
+          <div
+            className="section-title"
+          >
+            Result
+          </div>
+          <div>
+            <div
+              className="section-content"
+            >
+              <div
+                className="section-text"
+              >
+                Change Accepted
+              </div>
+              <div
+                className="section-text section-status-text"
+              >
+                Auto-Merged
+              </div>
+            </div>
+            <div
+              className="section-footer"
+            >
+              <button
+                className="action-button"
+              >
+                 
+                <i
+                  aria-hidden="true"
+                  className="icon fa fa-search"
+                />
+                <span>
+                  Merge Build
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
