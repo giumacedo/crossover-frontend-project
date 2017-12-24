@@ -14,7 +14,13 @@ class TableRow extends Component {
     let resultButton;
 
     if (rowContent.state === 'accepted') {
-      resultButton = <button className="action-button">Merge Build</button>;
+      resultButton = (
+        <button className="action-button">
+          {' '}
+          <i className="icon fa fa-search" aria-hidden="true" />
+          <span>Merge Build</span>
+        </button>
+      );
     }
     if (rowContent.state === 'rejected') {
       resultButton = <button className="action-button">Find Issues</button>;
@@ -60,14 +66,16 @@ class TableRow extends Component {
 
       case 'build':
         content = (
-          <div className="section-content">
+          <div className="section-content build">
             <div className="section-item">
+              <i className="fa fa-desktop" />
               <div>Debug</div>
             </div>
             <div className="section-item">
+              <i className="fa fa-desktop" />
               <div>Release</div>
             </div>
-            <div className="section-item-100">
+            <div className="section-footer">
               <Moment format="HH:mm - MM/DD/YYYY ">
                 <div>{rowContent.time}</div>
               </Moment>
@@ -85,7 +93,7 @@ class TableRow extends Component {
             <div className="section-item">
               <div>Release</div>
             </div>
-            <div className="section-item-100">
+            <div className="section-footer">
               <div>{rowContent.time}</div>
             </div>
           </div>
@@ -101,7 +109,7 @@ class TableRow extends Component {
             <div className="section-item">
               <div>Release</div>
             </div>
-            <div className="section-item-100">
+            <div className="section-footer">
               <div>{rowContent.time}</div>
             </div>
           </div>
