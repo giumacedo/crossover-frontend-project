@@ -76,9 +76,7 @@ class TableRow extends Component {
               <div>Release</div>
             </div>
             <div className="section-footer">
-              <Moment format="HH:mm - MM/DD/YYYY ">
-                <div>{rowContent.time}</div>
-              </Moment>
+              <Moment format="HH:mm - MM/DD/YYYY">{rowContent.time}</Moment>
             </div>
           </div>
         );
@@ -91,10 +89,12 @@ class TableRow extends Component {
               <div>Debug</div>
             </div>
             <div className="section-item">
-              <div>Release</div>
+              <div>{rowContent.passed}</div>
+              <div>tests passed</div>
             </div>
             <div className="section-footer">
-              <div>{rowContent.time}</div>
+              <div>{rowContent.covered}</div>
+              <div>code covered</div>
             </div>
           </div>
         );
@@ -107,10 +107,12 @@ class TableRow extends Component {
               <div>Debug</div>
             </div>
             <div className="section-item">
-              <div>Release</div>
+              <div>{rowContent.passed}</div>
+              <div>tests passed</div>
             </div>
             <div className="section-footer">
-              <div>{rowContent.time}</div>
+              <div>{rowContent.covered}</div>
+              <div>code covered</div>
             </div>
           </div>
         );

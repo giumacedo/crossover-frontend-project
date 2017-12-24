@@ -57,22 +57,22 @@
           "title": "Metrics",
           "test": {
             "title": "Test",
-            "value": "64",
+            "value": "14",
             "type": "sucess"
           },
           "maintainability": {
             "title": "Maintainability",
-            "value": "53",
+            "value": "23",
             "type": "fail"
           },
           "security": {
             "title": "Security",
-            "value": "53",
+            "value": "33",
             "type": "regular"
           },
           "workmanship": {
             "title": "Workmanship",
-            "value": "53",
+            "value": "43",
             "type": "regular"
           }
         },
@@ -80,19 +80,21 @@
           "type": "build",
           "status": "sucess",
           "title": "Build",
-          "time": "2014-04-17T12:12:0"
+          "time": "2014-04-17T10:39:00"
         },
         {
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "90%",
+          "covered": "10%"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "80%",
+          "covered": "20%"
         },
         {
           "type": "result",
@@ -100,8 +102,7 @@
           "state": "rejected",
           "statusTitle": "Change Rejected",
           "statusText": "Metrics Reduction",
-          "title": "Result:",
-          "time": "2014-04-17T10:46:0"
+          "title": "Result"
         }
       ]
     },
@@ -124,22 +125,22 @@
           "title": "Metrics",
           "test": {
             "title": "Test",
-            "value": "64",
+            "value": "24",
             "type": "sucess"
           },
           "maintainability": {
             "title": "Maintainability",
-            "value": "53",
+            "value": "73",
             "type": "sucess"
           },
           "security": {
             "title": "Security",
-            "value": "53",
+            "value": "93",
             "type": "regular"
           },
           "workmanship": {
             "title": "Workmanship",
-            "value": "53",
+            "value": "13",
             "type": "regular"
           }
         },
@@ -147,19 +148,21 @@
           "type": "build",
           "status": "sucess",
           "title": "Build",
-          "time": "2014-04-17T12:12:0"
+          "time": "2014-04-17T10:42:00"
         },
         {
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "83%",
+          "covered": "16%"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "70%",
+          "covered": "30%"
         },
         {
           "type": "result",
@@ -167,8 +170,7 @@
           "state": "complete",
           "statusTitle": "",
           "statusText": "Complete",
-          "title": "Result:",
-          "time": "2014-04-17T10:46:0"
+          "title": "Result"
         }
       ]
     },
@@ -228,19 +230,21 @@
           "type": "build",
           "status": "sucess",
           "title": "Build",
-          "time": "2014-04-17T12:12:0"
+          "time": "2014-04-17T10:46:00"
         },
         {
           "type": "unitTest",
           "status": "sucess",
           "title": "Unit Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "73%",
+          "covered": "76%"
         },
         {
           "type": "functionalTest",
           "status": "sucess",
           "title": "Functional Test",
-          "time": "2014-04-17T10:46:0"
+          "passed": "68%",
+          "covered": "23%"
         },
         {
           "type": "result",
@@ -248,8 +252,7 @@
           "state": "accepted",
           "statusTitle": "Change Accepted",
           "statusText": "Auto-Merged",
-          "title": "Result:",
-          "time": "2014-04-17T10:46:0"
+          "title": "Result"
         }
       ]
     }
