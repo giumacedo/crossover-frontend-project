@@ -1,17 +1,14 @@
 # Crossover frontend project
 
 Giulliano Macedo
-https://github.com/giumacedo
+https://github.com/giumacedo/crossover-frontend-project.git
 giulli.macedo@gmail.com
 
 #RUNNING
 NODE v6.11.1
 
 1 - npm install || yarn install
-3 - npm run start || yarn start
-
-- Build for production:
-yarn production || NODE_ENV=production npm run build -- -p
+2 - npm run start || yarn start
 
 Run http://localhost:8080/
 
