@@ -1,0 +1,151 @@
+.section {
+    width: 18%;
+    color: black;
+    height: 140px;
+    position: relative;
+    margin: 0 10px;
+    background: none;
+    cursor: pointer;
+    .section-title {
+      text-align: left;
+      height: 35px;
+      padding: 0 0 0 10px;
+    }
+    &.fail {
+      border: 2px solid $Monza;
+      background: linear-gradient(to bottom right, $MonzaAlpha, $White);
+      .section-title {
+        color: $Monza;
+      }
+    }
+    &.sucess {
+      box-shadow: 7px 6px 5px -3px rgba(0, 0, 0, 0.39);
+      border: 2px solid $FernGreen;
+      background: linear-gradient(to bottom right, $FernGreenAlpha, $White);
+      .section-title {
+        color: $FernGreen;
+      }
+    }
+    .small {
+      font-size: 10px;
+    }
+    .big {
+      font-size: 28px;
+    }
+    .section-content {
+      height: 70px;
+    }
+    .section-item {
+      float: left;
+      width: 50%;
+      position: relative;
+      .arrow {
+        margin: 0 39px;
+      }
+      .arrow-triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        position: absolute;
+        top: -15px;
+        left: 31px;
+        border-width: 0 18px 18px 18px;
+      }
+      .fail {
+        color: $White;
+        .arrow-triangle {
+          border-color: transparent transparent $Monza transparent;
+        }
+      }
+      .sucess {
+        color: $White;
+        .arrow-triangle {
+          border-color: transparent transparent $FernGreen transparent;
+        }
+      }
+      .regular {
+        .arrow-triangle {
+          top: -6px;
+          left: 59px;
+          border-width: 18px 0 18px 18px;
+          border-color: transparent transparent transparent $SelectiveYellow;
+        }
+      }
+    }
+    .action {
+      padding: 2px 0;
+    }
+    .action-button {
+      background: $Danuve;
+      color: $White;
+      padding: 0 20px;
+    }
+    .action-select {
+      -webkit-appearance: none;
+      color: $Danuve;
+      border-radius: 0px;
+      padding: 0 20px;
+    }
+    .build {
+      .section-item {
+        color: $Astral;
+      }
+      .section-content {
+        height: 78px;
+      }
+      .fa {
+        font-size: 30px;
+      }
+    }
+    .section-test {
+      .section-footer {
+        line-height: 1;
+        margin: 0 10px;
+        padding: 2px 0;
+        background: linear-gradient(to right, $Sprout 50%, $Maize 50%);
+      }
+      .section-item {
+        line-height: 1;
+        height: 50px;
+      }
+      .test-regular {
+        color: $PirateGold;
+      }
+      .test-good {
+        color: $Atlantis;
+      }
+      .pie-chart {
+        width: 72px;
+        position: absolute;
+        height: 72px;
+        top: -10px;
+        left: 15px;
+        border-radius: 50%;
+        background: linear-gradient(to right, $Apple 50%, $Jaffa 0);
+      }
+    }
+    &.result {
+      border: none;
+      cursor: default;
+      .section-title {
+        text-align: center;
+        height: 30px;
+      }
+      .section-footer {
+        position: absolute;
+        bottom: 10px;
+        left: 23%;
+      }
+      .section-content {
+        line-height: 1.1;
+        height: 80px;
+        width: 100%;
+      }
+      .icon {
+        margin: 0 8px 0 -10px;
+      }
+      .section-status-text {
+        font-size: 26px;
+      }
+    }
+  }

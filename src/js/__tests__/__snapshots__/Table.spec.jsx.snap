@@ -295,7 +295,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow sucess"
               >
-                14
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  14
+                </div>
               </div>
               <div>
                 Test
@@ -307,7 +314,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow fail"
               >
-                23
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  23
+                </div>
               </div>
               <div>
                 Maintainability
@@ -319,7 +333,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                33
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  33
+                </div>
               </div>
               <div>
                 Security
@@ -331,7 +352,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                43
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  43
+                </div>
               </div>
               <div>
                 Workmanship
@@ -619,7 +647,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow sucess"
               >
-                24
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  24
+                </div>
               </div>
               <div>
                 Test
@@ -631,7 +666,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow sucess"
               >
-                73
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  73
+                </div>
               </div>
               <div>
                 Maintainability
@@ -643,7 +685,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                93
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  93
+                </div>
               </div>
               <div>
                 Security
@@ -655,7 +704,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                13
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  13
+                </div>
               </div>
               <div>
                 Workmanship
@@ -1042,7 +1098,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow sucess"
               >
-                64
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  64
+                </div>
               </div>
               <div>
                 Test
@@ -1054,7 +1117,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow sucess"
               >
-                53
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  53
+                </div>
               </div>
               <div>
                 Maintainability
@@ -1066,7 +1136,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                64
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  64
+                </div>
               </div>
               <div>
                 Security
@@ -1078,7 +1155,14 @@ exports[`Table renders correctly 1`] = `
               <div
                 className="arrow regular"
               >
-                72
+                <i
+                  className="arrow-triangle"
+                />
+                <div
+                  className="arrow-base"
+                >
+                  72
+                </div>
               </div>
               <div>
                 Workmanship
