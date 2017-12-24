@@ -66,14 +66,16 @@ class TableRow extends Component {
 
       case 'build':
         content = (
-          <div className="section-content build">
-            <div className="section-item">
-              <i className="fa fa-desktop" />
-              <div>Debug</div>
-            </div>
-            <div className="section-item">
-              <i className="fa fa-desktop" />
-              <div>Release</div>
+          <div>
+            <div className="section-content build">
+              <div className="section-item">
+                <i className="fa fa-desktop" />
+                <div>Debug</div>
+              </div>
+              <div className="section-item">
+                <i className="fa fa-desktop" />
+                <div>Release</div>
+              </div>
             </div>
             <div className="section-footer">
               <Moment format="HH:mm - MM/DD/YYYY">{rowContent.time}</Moment>
@@ -83,32 +85,17 @@ class TableRow extends Component {
         break;
 
       case 'unitTest':
-        content = (
-          <div className="section-content">
-            <div className="section-item">
-              <i className="fa fa-pie-chart" aria-hidden="true" />
-            </div>
-            <div className="section-item">
-              <div>{rowContent.passed}</div>
-              <div>tests passed</div>
-            </div>
-            <div className="section-footer">
-              <div>{rowContent.covered}</div>
-              <div>code covered</div>
-            </div>
-          </div>
-        );
-        break;
-
       case 'functionalTest':
         content = (
-          <div className="section-content">
-            <div className="section-item">
-              <i className="fa fa-pie-chart" aria-hidden="true" />
-            </div>
-            <div className="section-item">
-              <div>{rowContent.passed}</div>
-              <div>tests passed</div>
+          <div className="section-test">
+            <div className="section-content test">
+              <div className="section-item">
+                <i className="fa fa-pie-chart" aria-hidden="true" />
+              </div>
+              <div className="section-item">
+                <div>{rowContent.passed}</div>
+                <div>tests passed</div>
+              </div>
             </div>
             <div className="section-footer">
               <div>{rowContent.covered}</div>
@@ -120,8 +107,8 @@ class TableRow extends Component {
 
       case 'result':
         content = (
-          <div className="result">
-            <div className="section-item">
+          <div>
+            <div className="section-content">
               <div className="section-text">{rowContent.statusTitle}</div>
               <div className="section-text section-status-text">
                 {rowContent.statusText}

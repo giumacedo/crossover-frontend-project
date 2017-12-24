@@ -135,7 +135,6 @@
   }
 
   .section {
-    display: block;
     width: 18%;
     color: black;
     height: 140px;
@@ -143,6 +142,11 @@
     margin: 0 10px;
     background: none;
     cursor: pointer;
+    .section-title {
+      text-align: left;
+      height: 35px;
+      padding: 0 0 0 10px;
+    }
     &.fail {
       border: 2px solid $Monza;
       background: linear-gradient(to bottom right, $MonzaAlpha, $White);
@@ -158,13 +162,8 @@
         color: $FernGreen;
       }
     }
-    .section-title {
-      position: absolute;
-      top: 1px;
-      left: 5px;
-    }
     .section-content {
-      margin: 35px 0 0 0;
+      height: 65px;
     }
     .section-item {
       float: left;
@@ -192,20 +191,26 @@
         font-size: 30px;
       }
     }
-    // .section-footer {
-    //   position: absolute;
-    //   bottom: 2px;
-    //   left: 23%;
-    // }
+    .section-test {
+      .section-footer {
+        line-height: 1;
+      }
+    }
     &.result {
       border: none;
       cursor: default;
       .section-title {
-        position: relative;
+        text-align: center;
+        height: 30px;
       }
-      .section-item {
+      .section-footer {
+        position: absolute;
+        bottom: 10px;
+        left: 23%;
+      }
+      .section-content {
         line-height: 1.1;
-        margin: 5px 0;
+        height: 80px;
         width: 100%;
       }
       .icon {
