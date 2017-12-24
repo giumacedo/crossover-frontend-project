@@ -164,7 +164,7 @@
       left: 5px;
     }
     .section-content {
-      margin: 35px 0;
+      margin: 35px 0 0 0;
     }
     .section-item {
       float: left;
@@ -192,11 +192,11 @@
         font-size: 30px;
       }
     }
-    .section-footer {
-      position: absolute;
-      bottom: 2px;
-      left: 23%;
-    }
+    // .section-footer {
+    //   position: absolute;
+    //   bottom: 2px;
+    //   left: 23%;
+    // }
     &.result {
       border: none;
       cursor: default;

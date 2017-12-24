@@ -86,7 +86,7 @@ class TableRow extends Component {
         content = (
           <div className="section-content">
             <div className="section-item">
-              <div>Debug</div>
+              <i className="fa fa-pie-chart" aria-hidden="true" />
             </div>
             <div className="section-item">
               <div>{rowContent.passed}</div>
@@ -104,7 +104,7 @@ class TableRow extends Component {
         content = (
           <div className="section-content">
             <div className="section-item">
-              <div>Debug</div>
+              <i className="fa fa-pie-chart" aria-hidden="true" />
             </div>
             <div className="section-item">
               <div>{rowContent.passed}</div>
